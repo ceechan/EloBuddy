@@ -294,7 +294,7 @@
                             }
                             else if (BotVectorReached)
                             {
-                                Player.IssueOrder(GameObjectOrder.MoveTo, PurpleSpawn);
+                                Player.IssueOrder(GameObjectOrder.MoveTo, TopVector3);
                             }
                         }
                         else
@@ -305,7 +305,7 @@
                             }
                             else if (BotVectorReached)
                             {
-                                Player.IssueOrder(GameObjectOrder.MoveTo, BlueSpawn);
+                                Player.IssueOrder(GameObjectOrder.MoveTo, TopVector3);
                             }
                         }
                     }
